@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Client.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Client"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="283.143" Width="451.429" >
+
+    <Grid  Margin="0,0,0,10">
+        <Button x:Name="btnConnect" Content="Connect" HorizontalAlignment="Left" Margin="280,39,0,0" VerticalAlignment="Top" Click="btnConnect_Click"/>
+        <TextBox x:Name="txtIPAddress" HorizontalAlignment="Left" Margin="112,39,0,0" TextWrapping="Wrap" Text="192.168.188." VerticalAlignment="Top" Width="151"/>
+
+        <Button x:Name="btnForward" Content="Forward" HorizontalAlignment="Left" Margin="175,118,0,0" VerticalAlignment="Top" Width="118" />
+        <Button x:Name="btnRightForward" Content="RightForward" HorizontalAlignment="Left" Margin="312,118,0,0" VerticalAlignment="Top" Width="118" />
+        <Button x:Name="btnBackward" Content="Backward" HorizontalAlignment="Left" Margin="175,196,0,0" VerticalAlignment="Top" Width="118" />
+        <Button x:Name="btnLeftForward" Content="LeftForward" HorizontalAlignment="Left" Margin="38,118,0,0" VerticalAlignment="Top" Width="118" />
+        <Button x:Name="btnLeftBackward" Content="LeftBackward" HorizontalAlignment="Left" Margin="38,196,0,0" VerticalAlignment="Top" Width="118" />
+        <Button x:Name="btnRightBackward" Content="RightBackward" HorizontalAlignment="Left" Margin="312,196,0,0" VerticalAlignment="Top" Width="118" />
+    </Grid>
+</Page>
